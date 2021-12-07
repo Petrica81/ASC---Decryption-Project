@@ -10,6 +10,7 @@
  Orice cheie, de dimensiune 10-15, introdusa manual este corecta deoarece variabila "key" a lor este realizata prin urmatorele linii de cod:
  
  password="sys.argv[3]".encode("utf-8")
+ 
  key=base64.b64encode(password)
  
  Fisierul Output este posibil sa fi fost modificat in momentul încarcarii lui pe github. Cand xorez input.txt cu output ca sa aflu cheia, imi retunează o cheie diferita si de "key".
