@@ -13,5 +13,5 @@
  
  key=base64.b64encode(password)
  
- Fisierul Output este posibil sa fi fost modificat in momentul încarcarii lui pe github. Cand xorez input.txt cu output ca sa aflu cheia, imi retunează o cheie diferita si de "key".
+ Fisierul Output este posibil sa fi fost modificat in momentul încarcarii lui pe github. Cand xorez input.txt cu output ca sa aflu cheia, imi retunează o cheie diferita si de "key", dar asemanatoare la inceput.
  P.S. Practic nu a fost nevoie sa ma folosesc de fisierul "input.txt" ca sa aflu cheia cu care s-a realizat codificarea.
